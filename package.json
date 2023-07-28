@@ -1,6 +1,6 @@
 {
     "name": "cozip",
-    "version": "0.0.7-beta",
+    "version": "0.0.8-beta",
     "description": "An easy way to zip files based on adm-zip",
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",
