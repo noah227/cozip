@@ -13,7 +13,7 @@ const userTerser = false
 const createExport = (input, output, plugins) => ({
     input, output,
     plugins: [
-        nodeResolve({browser: output.format === "es"}),
+        nodeResolve(),
         typescript({
             compilerOptions: {
                 sourceMap: output.sourcemap,
