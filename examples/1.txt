@@ -1,0 +1,17 @@
+卷 T@E 的文件夹 PATH 列表
+卷序列号为 0000007F 04DB:F5F7
+E:\DOCUMENTS\GITHUB\COZIP\EXAMPLES
+│  1.txt
+│  index.js
+│  pack.zip
+│  test.js
+│  
+├─logs
+└─src
+    │  1.txt
+    │  2.txt
+    │  3.tts
+    │  
+    └─inner
+            ii.yml
+            
