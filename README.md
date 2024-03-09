@@ -1,6 +1,6 @@
 # cozip
 
-> Cozy zip, an easy way to zip files based on `adm-zip`
+> Cozy zip, an easy way to zip files based on [adm-zip](https://www.npmjs.com/package/adm-zip)
 
 ## Example
 
@@ -8,6 +8,7 @@
 const cozip = require("cozip")
 
 cozip("./pack.zip",[
+    // [path, isFolder, filter],
     ["./", true, (p) => !p.endsWith(".tts") && !p.endsWith(".zip")],
 ],  err => {
     // if(err) ...

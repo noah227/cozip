@@ -1,12 +1,15 @@
 {
     "name": "cozip",
-    "version": "0.0.8-beta",
+    "version": "0.1.0",
     "description": "An easy way to zip files based on adm-zip",
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "rollup -c rollup.config.js"
+    },
+    "repository": {
+        "url": "https://github.com/noah227/cozip"
     },
     "keywords": [
         "archive",
