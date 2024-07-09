@@ -1,6 +1,6 @@
 {
     "name": "cozip",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "An easy way to zip files based on adm-zip",
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",
@@ -23,7 +23,7 @@
     "author": "",
     "license": "MIT",
     "dependencies": {
-        "adm-zip": "^0.5.10"
+        "adm-zip": "0.5.10"
     },
     "devDependencies": {
         "@rollup/plugin-commonjs": "^25.0.3",
